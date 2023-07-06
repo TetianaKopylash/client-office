@@ -79,7 +79,7 @@ public class EditProfileView extends Composite<VerticalLayout> {
         layoutColumn2.add(passwordField);
         layoutColumn2.add(layoutRow2);
         layoutRow2.add(passwordField2);
-        layoutRow2.add(passwordField3);
+        layoutColumn2.add(passwordField3);
         layoutColumn2.add(buttonPrimary);
         getContent().add(layoutRow3);
     }
