@@ -36,7 +36,7 @@ public class PasswordUpdateView extends Composite<VerticalLayout> {
     public PasswordUpdateView() {
         getContent().setHeightFull();
         textField.setLabel("Login");
-        passwordField.setLabel("Temporaty password");
+        passwordField.setLabel("Temporary password");
         layoutRow.setWidthFull();
         layoutRow.addClassName(Gap.MEDIUM);
         passwordField2.setLabel("New password");
