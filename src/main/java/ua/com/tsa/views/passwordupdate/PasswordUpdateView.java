@@ -47,7 +47,7 @@ public class PasswordUpdateView extends Composite<VerticalLayout> {
         getContent().add(passwordField);
         getContent().add(layoutRow);
         layoutRow.add(passwordField2);
-        layoutRow.add(passwordField3);
+        getContent().add(passwordField3);
         getContent().add(buttonPrimary);
     }
 }
